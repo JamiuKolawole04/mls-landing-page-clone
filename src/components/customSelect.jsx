@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { useField } from "formik";
 
-export const CustomInput = ({ label, ...props }) => {
+export const CustomSelect = ({ label, ...props }) => {
   const [field, meta] = useField(props);
 
   return (
     <Fragment>
-      <input
+      <select
         {...field}
         {...props}
         className={meta.touched && meta.error ? "input-error" : ""}

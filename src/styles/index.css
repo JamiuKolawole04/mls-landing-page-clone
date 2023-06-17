@@ -12,6 +12,9 @@
 /* ======================== SEARCH ESTATE FORM STYLES ================================= */
 @import url(./search-estate-form.css);
 
+/*========================= SEARCH BTN STYLES   ============================================*/
+@import url(./search-btn.css);
+
 :root {
   --font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
