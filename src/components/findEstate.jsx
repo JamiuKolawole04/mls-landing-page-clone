@@ -13,7 +13,22 @@ export const FindEstate = () => {
         </div>
       </div>
 
-      <SearchEstateForm />
+      <div className="form__container d-flex justify-between align-center">
+        <SearchEstateForm
+          heading="Find Real Estate Listings"
+          subHeading="Search for listings near you."
+        />
+
+        <SearchEstateForm
+          heading="Find New Homes"
+          subHeading="Search for new home listings near you."
+        />
+
+        <SearchEstateForm
+          heading="Find Foreclosures"
+          subHeading="Search for listings near you."
+        />
+      </div>
     </section>
   );
 };

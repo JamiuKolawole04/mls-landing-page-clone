@@ -1,3 +1,47 @@
-p.ok {
-  color: red;
+.form__container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.form__container > div {
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.18);
+  background: var(--mainColor);
+  width: 352px;
+  border-radius: 4px;
+  transition: all 0.3s ease 0s;
+  padding: 40px 20px 20px 20px;
+  cursor: pointer;
+}
+
+.form__container > div:hover {
+  -ms-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.04);
+}
+
+.form__container > div > h3 {
+  color: var(--hoverLink);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.form__container > div > p {
+  color: var(--mainBrown);
+  margin-top: 32px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }

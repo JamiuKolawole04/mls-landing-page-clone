@@ -7,7 +7,6 @@ export const CustomInput = ({ label, ...props }) => {
   console.log({ field, meta, helpers });
   return (
     <Fragment>
-      <label>{label}</label>
       {/* spreading field objexts from useField */}
       <input
         {...field}

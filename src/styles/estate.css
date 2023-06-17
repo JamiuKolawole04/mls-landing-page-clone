@@ -21,3 +21,7 @@ section.estate > div > p {
   height: 2px;
   background: #37a000;
 }
+
+.form__container {
+  padding-top: 120px;
+}

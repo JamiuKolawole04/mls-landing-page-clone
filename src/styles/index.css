@@ -43,6 +43,11 @@
   font-family: var(--font-family);
 }
 
+::selection {
+  background: var(--mainGreen);
+  color: var(--mainColor);
+}
+
 a {
   font-weight: 500;
   color: #646cff;
