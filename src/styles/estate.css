@@ -1,0 +1,23 @@
+section.estate {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: var(--secondary-white);
+}
+
+section.estate > div > h3 {
+  color: var(--secondaryBrown);
+  font-weight: 300;
+  font-size: 40px;
+}
+
+section.estate > div > p {
+  color: #848484;
+  font-size: 20px;
+}
+
+.green__section {
+  margin-top: 32px;
+  width: 100px;
+  height: 2px;
+  background: #37a000;
+}

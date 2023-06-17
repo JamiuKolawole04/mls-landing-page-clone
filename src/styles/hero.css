@@ -1,0 +1,39 @@
+section.hero {
+  background-image: url(../assets/images/home_banner_desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+
+section.hero h2 {
+  font-size: 60px;
+  font-weight: 300;
+  color: var(--mainColor);
+}
+
+section.hero p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+button.search-listing__btn {
+  background-color: green;
+  width: 20%;
+  background-color: var(--mainGreen);
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  border-color: var(--mainGreen);
+  margin-top: 20px;
+}
+
+button.search-listing__btn:hover {
+  background-color: transparent;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  user-select: none;
+  border-color: var(--mainColor);
+}
