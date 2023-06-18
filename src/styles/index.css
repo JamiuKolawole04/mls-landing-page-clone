@@ -88,3 +88,7 @@ body {
 .fd-column {
   flex-direction: column;
 }
+
+.ml-12 {
+  margin-left: 20px;
+}

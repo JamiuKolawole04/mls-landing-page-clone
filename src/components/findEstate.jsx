@@ -120,8 +120,76 @@ export const FindEstate = () => {
 
         <SearchEstateForm
           heading="Find Foreclosures"
-          subHeading="Search for listings near you."
-        />
+          subHeading="Search for foreclosure listings near you."
+          isLoginForm
+        >
+          <Formik
+            initialValues={{
+              city: "",
+              zip: "",
+              country: "",
+              jobType: "",
+            }}
+          >
+            <Form>
+              <div className="foreclosure__form d-flex justify-between">
+                <div>
+                  <CustomInput
+                    label="City"
+                    name="city"
+                    type="text"
+                    placeholder="City"
+                  />
+                </div>
+
+                <div>
+                  <CustomSelect name="jobType" placeholder="Select State">
+                    <option value="">Select State</option>
+                    {states.map((state) => (
+                      <option key={state} value={state}>
+                        {state}
+                      </option>
+                    ))}
+                  </CustomSelect>
+                </div>
+              </div>
+
+              <p className="foreclosure__form_paragraph">or</p>
+
+              <div className="foreclosure__form d-flex justify-between">
+                <div>
+                  <CustomInput
+                    label="Country"
+                    name="country"
+                    type="text"
+                    placeholder="Country"
+                  />
+                </div>
+
+                <div>
+                  <CustomSelect name="jobType" placeholder="Select State">
+                    <option value="">Select State</option>
+                    {states.map((state) => (
+                      <option key={state} value={state}>
+                        {state}
+                      </option>
+                    ))}
+                  </CustomSelect>
+                </div>
+              </div>
+
+              <p className="foreclosure__form_paragraph">or</p>
+
+              <CustomInput
+                label="Zipp"
+                name="city"
+                type="text"
+                placeholder="Zip"
+              />
+            </Form>
+          </Formik>
+          <SearchBtn />
+        </SearchEstateForm>
       </div>
     </section>
   );

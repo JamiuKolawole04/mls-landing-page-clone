@@ -25,3 +25,15 @@ section.estate > div > p {
 .form__container {
   padding-top: 300px;
 }
+
+.foreclosure__form > div {
+  width: 140px;
+}
+
+p.foreclosure__form_paragraph {
+  color: #848484;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 2px 0;
+}
