@@ -1,7 +1,13 @@
-export const SearchBtn = ({ poweredText }) => {
+export const SearchBtn = ({ poweredText, isLoginBtn }) => {
   return (
     <div className="d-flex search__btn__wrapper align-center justify-between">
-      <button className="search-btn">SEARCH </button>;
+      <button
+        style={{ background: isLoginBtn ? "#0753a8" : "var(--mainGreen)" }}
+        className="search-btn"
+      >
+        {isLoginBtn ? "LOGIN" : "SEARCH"}
+      </button>
+      ;
       {poweredText && (
         <p>
           powered by

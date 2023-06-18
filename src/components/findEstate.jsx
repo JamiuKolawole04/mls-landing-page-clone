@@ -5,6 +5,7 @@ import { CustomInput } from "./customInput";
 import { SearchEstateForm } from "./searchEstateForm";
 import { CustomSelect } from "./customSelect";
 import { SearchBtn } from "./searchBtn";
+import { states, prices } from "../library";
 
 export const FindEstate = () => {
   return (
@@ -40,10 +41,11 @@ export const FindEstate = () => {
 
               <CustomSelect name="jobType" placeholder="Select State">
                 <option value="">Select State</option>
-                <option value="designer">Designer</option>
-                <option value="developer">Developer</option>
-                <option value="manager">Developer</option>
-                <option value="other">Other</option>
+                {states.map((state) => (
+                  <option key={state} value={state}>
+                    {state}
+                  </option>
+                ))}
               </CustomSelect>
 
               <CustomInput
@@ -68,6 +70,51 @@ export const FindEstate = () => {
           heading="Find New Homes"
           subHeading="Search for new home listings near you."
         >
+          <Formik
+            initialValues={{
+              city: "",
+              zip: "",
+              country: "",
+              jobType: "",
+            }}
+          >
+            <Form>
+              <CustomInput
+                label="City"
+                name="city"
+                type="text"
+                placeholder="Zip, City, Country"
+              />
+
+              <CustomSelect name="jobType" placeholder="Select State">
+                <option value="">Select State</option>
+                {states.map((state) => (
+                  <option key={state} value={state}>
+                    {state}
+                  </option>
+                ))}
+              </CustomSelect>
+
+              <CustomSelect name="jobType" placeholder="No Minimumn">
+                <option value="">No minimum</option>
+                {prices.map((price, index) => (
+                  <option key={index} value={price}>
+                    ${price}
+                  </option>
+                ))}
+              </CustomSelect>
+
+              <CustomSelect name="jobType" placeholder="No Maximum State">
+                <option value="">No maximum</option>
+                {prices.map((price, index) => (
+                  <option key={index} value={price}>
+                    ${price}
+                  </option>
+                ))}
+              </CustomSelect>
+            </Form>
+          </Formik>
+
           <SearchBtn poweredText />
         </SearchEstateForm>
 
