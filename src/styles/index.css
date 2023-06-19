@@ -21,6 +21,9 @@
 /* ========================= MLS STATE STYLES =================================================== */
 @import url(./mls-state.css);
 
+/* ======================== ESTATE SEARCH STYLES ================================================= */
+@import url(./estate-search.css);
+
 :root {
   --font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;

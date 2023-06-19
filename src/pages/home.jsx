@@ -1,6 +1,12 @@
 import { Fragment } from "react";
 
-import { Header, Hero, FindEstate, WhatIsMls } from "../components";
+import {
+  Header,
+  Hero,
+  FindEstate,
+  WhatIsMls,
+  EstateSearches,
+} from "../components";
 
 export const Home = () => {
   return (
@@ -9,6 +15,7 @@ export const Home = () => {
       <Hero />
       <FindEstate />
       <WhatIsMls />
+      <EstateSearches />
     </Fragment>
   );
 };

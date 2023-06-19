@@ -1,0 +1,23 @@
+section.estate-search__section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+section.estate-search__section .link__wrapper {
+  margin-top: 40px;
+}
+
+section.estate-search__section > h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--mainBrown);
+}
+
+section.estate-search__section a,
+.upright__dash {
+  color: var(--hoverLink);
+}
+
+.upright__dash {
+  color: var(--mainBrown);
+}
