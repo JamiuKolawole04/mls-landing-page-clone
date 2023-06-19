@@ -5,7 +5,7 @@ import { MlsState } from "./mlsState";
 
 export const WhatIsMls = () => {
   return (
-    <section className="mls-features ">
+    <section className="mls-features" data-aos="zoom-out-right">
       <h3 className="center-text">
         What is MLS.com<sup>®</sup>?
       </h3>

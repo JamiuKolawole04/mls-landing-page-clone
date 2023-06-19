@@ -17,7 +17,12 @@ export const FindEstate = () => {
         <p>Click on a State to View MLS Listing in your Area</p>
         <GreenLine />
 
-        <div className="map__container">
+        <div
+          className="map__container"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <img src={map} alt="map-img" />
         </div>
       </div>

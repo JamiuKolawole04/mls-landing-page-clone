@@ -11,7 +11,7 @@ import {
 
 export const MlsState = () => {
   return (
-    <div className="mls-state__container">
+    <div className="mls-state__container" data-aos="zoom-out-left">
       <div>
         <ul>
           {MLSState1.map((item, i) => (
