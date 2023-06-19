@@ -24,10 +24,6 @@ ul#header__nav li a:hover {
 }
 
 @media screen and (max-width: 690px) {
-  ul#header__nav {
-    /* margin-left: 60px; */
-  }
-
   header {
     flex-direction: column;
     justify-content: center;
