@@ -6,6 +6,7 @@ import {
   FindEstate,
   WhatIsMls,
   EstateSearches,
+  Footer,
 } from "../components";
 
 export const Home = () => {
@@ -16,6 +17,7 @@ export const Home = () => {
       <FindEstate />
       <WhatIsMls />
       <EstateSearches />
+      <Footer />
     </Fragment>
   );
 };

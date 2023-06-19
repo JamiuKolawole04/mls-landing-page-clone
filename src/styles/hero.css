@@ -37,3 +37,9 @@ button.search-listing__btn:hover {
   user-select: none;
   border-color: var(--mainColor);
 }
+
+@media screen and (max-width: 500px) {
+  button.search-listing__btn {
+    width: max-content;
+  }
+}

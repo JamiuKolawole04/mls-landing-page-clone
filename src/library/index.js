@@ -138,3 +138,64 @@ export const MLSState6 = [
   "Wisconsin MLS",
   "Wyoming MLS",
 ];
+
+export const companySearchLinks = [
+  {
+    path: "/",
+    link: "About Us",
+  },
+  {
+    path: "/",
+    link: "Contact Us",
+  },
+  {
+    path: "/",
+    link: "Privacy Policy",
+  },
+  {
+    path: "/",
+    link: "Terms of  Use",
+  },
+  {
+    path: "/",
+    link: "Site Map",
+  },
+];
+
+export const propertySearchLinks = [
+  {
+    path: "/",
+    link: "Find Foreclosures",
+  },
+  {
+    path: "/",
+    link: "Find New Homes",
+  },
+  {
+    path: "/",
+    link: "Find An Agent",
+  },
+];
+
+export const resourceLinks = [
+  {
+    path: "/",
+    link: "Bookmark This Site",
+  },
+  {
+    path: "/",
+    link: "Education",
+  },
+  {
+    path: "/",
+    link: "Glossary",
+  },
+  {
+    path: "/",
+    link: "Seller/Buyer Info",
+  },
+  {
+    path: "/",
+    link: "Fair Housing",
+  },
+];

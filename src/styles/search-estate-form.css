@@ -52,3 +52,9 @@ form select {
 div.login_bth__wrapper {
   margin-top: -28px;
 }
+
+@media screen and (max-width: 370px) {
+  .form__container > div {
+    width: 80%;
+  }
+}

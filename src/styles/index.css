@@ -24,6 +24,9 @@
 /* ======================== ESTATE SEARCH STYLES ================================================= */
 @import url(./estate-search.css);
 
+/* ========================= FOOTER STYLES ========================================================== */
+@import url(./footer.css);
+
 :root {
   --font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
@@ -101,4 +104,8 @@ body {
 
 .ml-12 {
   margin-left: 20px;
+}
+
+.d-grid {
+  display: grid;
 }

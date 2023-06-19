@@ -17,7 +17,7 @@ export const FindEstate = () => {
         <GreenLine />
       </div>
 
-      <div className="form__container d-flex justify-between align-center">
+      <div className="form__container d-grid">
         <SearchEstateForm
           heading="Find Real Estate Listings"
           subHeading="Search for listings near you."
