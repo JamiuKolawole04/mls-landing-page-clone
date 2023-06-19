@@ -69,3 +69,72 @@ export const prices = [
   "900,000",
   "1,000,000+",
 ];
+
+export const MLSState1 = [
+  "Alabama MLS",
+  "Alaska MLS",
+  "Arizona MLS",
+  "Arkansas MLS",
+  "California MLS",
+  "Colorado MLS",
+  "Connecticut MLS",
+  "Delaware MLS",
+  "D.C. MLS",
+];
+
+export const MLSState2 = [
+  "Florida MLS",
+  "Georgia MLS",
+  "Hawaii MLS",
+  "Idaho MLS",
+  "Illinois MLS",
+  "Indiana MLS",
+  "Iowa MLS",
+  "Kansas MLS",
+  "Kentucky MLS",
+];
+
+export const MLSState3 = [
+  "Louisiana MLS",
+  "Maine MLS",
+  "Maryland MLS",
+  "Massachusetts MLS",
+  "Michigan MLS",
+  "Minnesota MLS",
+  "Mississippi MLS",
+  "Missouri MLS",
+  "Montana MLS",
+];
+
+export const MLSState4 = [
+  "Nebraska MLS",
+  "Nevada MLS",
+  "New Hampshire MLS",
+  "New Jersey MLS",
+  "New Mexico MLS",
+  "New York MLS",
+  "North Carolina MLS",
+  "North Dakota MLS",
+  "Ohio MLS",
+];
+
+export const MLSState5 = [
+  "Oklahoma MLS",
+  "Oregon MLS",
+  "Pennsylvania MLS",
+  "Rhode Island MLS",
+  "South Carolina MLS",
+  "South Dakota MLS",
+  "Tennessee MLS",
+  "Texas MLS",
+  "Utah MLS",
+];
+
+export const MLSState6 = [
+  "Vermont MLS",
+  "Virginia MLS",
+  "Washington MLS",
+  "West Virginia MLS",
+  "Wisconsin MLS",
+  "Wyoming MLS",
+];

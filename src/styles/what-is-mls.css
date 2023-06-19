@@ -1,0 +1,27 @@
+section.mls-features {
+  color: var(--secondaryBrown);
+}
+
+.mls-features__article {
+  max-width: 780px;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+  margin-top: 80px;
+}
+
+section.mls-features h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+section.mls-features p {
+  font-size: 16px;
+  color: #848484;
+}
+
+/* #e5e5e5 */
+section.mls-features > div:nth-of-type(3) {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 120px 0;
+}

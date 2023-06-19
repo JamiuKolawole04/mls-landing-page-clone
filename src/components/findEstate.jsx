@@ -6,6 +6,7 @@ import { SearchEstateForm } from "./searchEstateForm";
 import { CustomSelect } from "./customSelect";
 import { SearchBtn } from "./searchBtn";
 import { states, prices } from "../library";
+import { GreenLine } from "./greenLine";
 
 export const FindEstate = () => {
   return (
@@ -13,9 +14,7 @@ export const FindEstate = () => {
       <div className="center-text">
         <h3>Find Real Estate</h3>
         <p>Click on a State to View MLS Listing in your Area</p>
-        <div className="center-text d-flex justify-center">
-          <div className="green__section"></div>
-        </div>
+        <GreenLine />
       </div>
 
       <div className="form__container d-flex justify-between align-center">
