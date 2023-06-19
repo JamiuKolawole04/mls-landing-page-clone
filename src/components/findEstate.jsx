@@ -7,6 +7,7 @@ import { CustomSelect } from "./customSelect";
 import { SearchBtn } from "./searchBtn";
 import { states, prices } from "../library";
 import { GreenLine } from "./greenLine";
+import map from "../assets/images/map.png";
 
 export const FindEstate = () => {
   return (
@@ -15,6 +16,10 @@ export const FindEstate = () => {
         <h3>Find Real Estate</h3>
         <p>Click on a State to View MLS Listing in your Area</p>
         <GreenLine />
+
+        <div className="map__container">
+          <img src={map} alt="map-img" />
+        </div>
       </div>
 
       <div className="form__container d-grid">
